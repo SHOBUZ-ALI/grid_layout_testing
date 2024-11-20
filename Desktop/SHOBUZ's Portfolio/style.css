@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px 10px;
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* .intro{background-color: ;} */
+.container{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 50px;
+    border: 2px solid purple;
+    border-radius: 10%;
+}
+.image{text-align: right;
+    margin-right: 100px;
+     /* border:2px solid brown; */
+    }
+    .miles{margin-left: 200px;}
+    .one{
+        border: 2px solid brown;
+    }
+        
+    .social_links{
+    text-align: right;
+margin-right: 100px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 900;
+color: brown;
+margin-bottom: 50px;
+margin-bottom: 10px;
+
+}
+#skills{background-color: plum;
+    color: brown;
+}
+#educational_status{
+    background-color: pink;
+}
+.eduskills{
+    display: grid;
+    grid-template-columns:40% 60% ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.two{border: 2px solid brown; margin-bottom: 10px;}
+.projectss{height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 60px;
+    background-color:paleturquoise;
+    color:brown;
+    border: 2px solid brown;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    
+    
+}
+.formspree{
+    /* border: 2px solid brown; */
+    padding: 10px 10px;
+    text-align: center;
+    border-color: brown;
+    
+
+    
+    
+}
+.input-1,.input-2,.input-3{
+    width: 60%;
+    height: 40px;
+    border-color: brown;
+    border-radius: 15px;
+}
+.btn{
+    background-color:pink;
+    color: brown;
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: 900;
+}
+.footer{
+    display: grid;
+    background-color: palevioletred;
+    color: blue;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+    border: 3px solid brown; 
+    border-radius: 50px;
+}
+.query{
+    text-align: center;
+    color: brown;
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+.1,.2,.3,.4,.5,.6{
+    
+}
