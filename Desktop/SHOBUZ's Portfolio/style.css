@@ -5,19 +5,25 @@
 }
 body{
     margin: 10px 10px;
-    background-color: aqua;
+    background-color: skyblue;
+    width: 100%; height: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* .intro{background-color: ;} */
 .container{
     background-color: brown;
+    color: white;
     display: grid;
-    grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 300px  1fr 1fr 1fr 1fr;
     justify-content: center;
+    align-items: end;
+    font-weight: bolder;
+    justify-items: end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100px;
     margin-bottom: 50px;
     border: 2px solid purple;
-    border-radius: 10%;
+    /* border-radius: 10%; */
 }
 .image{text-align: right;
     margin-right: 100px;
@@ -35,23 +41,31 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 font-weight: 900;
 color: brown;
 margin-bottom: 50px;
-margin-bottom: 10px;
+text-decoration: none;
+gap: 30px;
+
+
+
 
 }
-#skills{background-color: plum;
+#skills{background-color: bisque;
     color: brown;
 }
 #educational_status{
-    background-color: pink;
+    background-color: bisque
+    
+    
 }
 .eduskills{
     display: grid;
     grid-template-columns:40% 60% ;
     margin-bottom: 10px;
     margin-top: 10px;
+    
+    
 }
 .two{border: 2px solid brown; margin-bottom: 10px;}
-.projectss{height: 100%;
+#projectss{height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 50px;
@@ -61,10 +75,11 @@ margin-bottom: 10px;
     border: 2px solid brown;
     padding: 10px 10px;
     margin-bottom: 20px;
+   
     
     
 }
-.formspree{
+#contacts{
     /* border: 2px solid brown; */
     padding: 10px 10px;
     text-align: center;
@@ -109,6 +124,35 @@ h2{
     text-align: center;
     color: brown;
 }
-.1,.2,.3,.4,.5,.6{
+.poster{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 200px;
+}
+#myself{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-justify: auto;
+    color: brown;
+}
+.image{
+    
+    margin-bottom: 20px;
     
 }
+.edu{
+    text-align: left;
+}
+.p{
+    text-align: center;
+    color: brown;
+}
+.three{
+    border: 1px solid brown;
+}
+.about,.skills,.projects,.contacts{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+    
+
